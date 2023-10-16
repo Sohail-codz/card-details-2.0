@@ -1,0 +1,54 @@
+
+.details{
+    display: flex;
+    font-family: 'Roboto Slab', serif;
+    width: 470px ;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    right: 10%;
+    position: absolute;
+}
+.creditcarddetails{
+    line-height: 45px;
+}
+.date-input-box{
+    display: flex;
+    justify-content: space-around;
+}
+label{
+    font-weight: 900;
+    color: #220930;    ;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+input{
+    border-style: none;
+    padding: 10px;
+    font-size: 18px;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+}
+button{
+    border-style: none;
+    font-weight: 400;
+    color: white;
+    background-color: #220930;
+    font-family: 'Roboto Slab', serif;
+    width: 100%;
+    height: 50px;
+    margin-top: 18px;
+    font-size: 21px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: #261132d2;
+    transform: translateY(-2px);
+    transition: all 100ms;
+}
+::placeholder{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 900;
+    color: rgba(128, 128, 128, 0.525);
+}

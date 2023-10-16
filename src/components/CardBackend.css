@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+.backcontainer{
+    position: absolute;
+    background-color: #AEB5BD;
+    box-shadow:1px 1px 20px 2px rgba(28, 28, 28, 0.475);
+    left: 22vw;
+    top: 55vh;
+    height: 250px;
+    width: 450px;
+    border-radius: 10px;
+}
+.backcontainer .blackbar{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    top: 30px;
+}
+.backcontainer .cvcbar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+    position: absolute;
+    width: 80%;
+    height: 40px;
+    background-color: rgb(139, 150, 157);
+    color: white;
+    top: 110px;
+    left: 45px;
+    letter-spacing: 4px;
+    border-radius: 5px;
+}
+.dots{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 190px;
+    height: 40px;
+    top: 170px;
+    left: 140px;
+}
+.indots1{
+    display: flex;
+    height: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+.dots .indots1 .one{
+    width: 85px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: rgb(153, 153, 153);
+}
+.dots .indots1 .two{
+    width: 35px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: rgb(153, 153, 153);
+}
+.dots .indots1 .three{
+    width: 15px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: rgb(153, 153, 153);
+}
+
+.indots2{
+    display: flex;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.dots .indots2 .one{
+    width: 20px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: rgb(153, 153, 153);
+}
+.dots .indots2 .two{
+    width: 30px;
+    height: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    background-color: rgb(153, 153, 153);
+}
+.dots .indots2 .three{
+    width: 85px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: rgb(153, 153, 153);
+}
+
+.indots3{
+    display: flex;
+    height: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+.dots .indots3 .one{
+    width: 70px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: rgb(153, 153, 153);
+}
+.dots .indots3 .two{
+    width: 45px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: rgb(153, 153, 153);
+}
+.dots .indots3 .three{
+    width: 25px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: rgb(153, 153, 153);
+}

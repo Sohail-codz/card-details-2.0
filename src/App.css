@@ -1,0 +1,26 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+}
+.leftside{
+  width: 35%;
+  height: 100vh;
+  background: linear-gradient(
+    150deg, 
+    black 15%,
+    rgb(132, 17, 255) ,
+    rgb(107, 55, 55) ,
+    rgb(25, 24, 82) ,
+    rgb(57, 19, 95) ,
+    rgb(57, 2, 63) 
+  );
+}
+.rightside{
+  width: 65%;
+  height: 100vh;
+  background-color: rgb(180, 180, 180);
+}
